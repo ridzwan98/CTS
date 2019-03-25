@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" type="png" href="cts.png"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="customb.css">	
+	<title>Section A </title>
+</head>
+
+<body>
+<div class="container">
+<header> 
+<!-- Contains the web page document’s headings  -->
+  
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> 
+<!-- Contains the web page document’s main navigation  -->
+    <a class="navbar-brand" >Critical Thinking Skill<a/>	
+	<a class="nav-link" href="index.html">HOME</a>
+	<a class="nav-link" href="SectionA.html">QUESTION</a>
+    <a class="nav-link" href="events.html">RESULT</a>
+</nav>
+
+<main>
+
+<div class="jumbotron">
+
+<div class="p-3 mb-2 bg-info">  <h1 id="header1">SECTION A:RESPONDENT PROFILE</h1> </div>
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Registration/Matriculation number</label>
+    <input type="text" class="form-control" id="matric" placeholder="example WIF170100">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput2">Name of University</label>
+    <input type="text" class="form-control" id="uniname" placeholder="Put full university name">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput3">Year of Study </label>
+    <input type="text" class="form-control" id="yearsstudy" placeholder="First, Second, Third, Fourth, etc">
+  </div>
+  
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Gender</label>
+    <select class="form-control" id="gender">
+      <option>Male</option>
+      <option>Female</option>
+      <option>Confius</option>
+    </select>
+  </div>
+  
+    <div class="form-group">
+    <label for="exampleFormControlSelect2">Age</label>
+    <select class="form-control" id="gender">
+      <option>Below 18 Years</option>
+      <option>18-21 Years</option>
+      <option>22-25 Years</option>
+	  <option>Above 25 Years</option>
+    </select>
+  </div>
+  <fieldset id="group1" class="form-group" >
+    <div class="row">
+      <legend class="col-form-label col-sm-2 pt-0">Ethnic Group</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="r1" id="gridRadios1" value="option1" checked>
+          <label class="form-check-label" for="gridRadios1">
+            Malay
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="r1" id="gridRadios2" value="option2">
+          <label class="form-check-label" for="gridRadios2">
+            Chinese
+          </label>
+        </div>
+         <div class="form-check">
+          <input class="form-check-input" type="radio" name="r1" id="gridRadios3" value="option3">
+          <label class="form-check-label" for="gridRadios3">
+            Indian
+          </label>
+        </div>
+		 <div class="form-check">
+          <input class="form-check-input" type="radio" name="r1" id="gridRadios4" value="option4">
+          <label class="form-check-label" for="gridRadios4">
+            Other
+          </label><input type="text" class="form-control" id="other" placeholder="">
+        </div>
+      </div>
+    </div>
+  </fieldset>
+  
+  <fieldset id="group2" class="form-group">
+    <div class="row">
+      <legend class="col-form-label col-sm-2 pt-0">Nationality</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+          <label class="form-check-label" for="gridRadios11">
+            Malaysia
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+          <label class="form-check-label" for="gridRadios22">
+            China
+          </label>
+        </div>
+         <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+          <label class="form-check-label" for="gridRadios33">
+            Indonesian
+          </label>
+        </div>
+		 <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+          <label class="form-check-label" for="gridRadios44">
+            Other
+          </label><input type="text" class="form-control" id="other" placeholder="">
+        </div>
+      </div>
+    </div>
+  </fieldset>
+   <h3>Last Year Examination</h3>
+  <div class="form-group">
+    <label for="exampleFormControlInput4">Past/last year’s examination results</label>
+    <input type="text" class="form-control" id="gpa1" placeholder="GPA">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput5">Year of examination</label>
+    <input type="text" class="form-control" id="yearexam1" placeholder="2018,2017,2016,etc">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInpu6">Semester</label>
+    <input type="text" class="form-control" id="sem1" placeholder="1,2,3,4,5,6,7,etc">
+  </div>
+  
+	
+	<div id="field_div" class="form-group col-md-6">Add Yourse Course Here
+		<input class="btn btn-primary btn-sm" type="button" value="Add Course" onclick="add_field();">
+	</div>
+	
+	<div class="form-group">
+    <label for="exampleFormControlInput10">GPA(Current Semester)</label>
+    <input type="text" class="form-control" id="gpasm1" placeholder="">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput11">CGPA(Current Semester)</label>
+    <input type="text" class="form-control" id="cgpasm1" placeholder="">
+  </div>
+	
+	<h3>This Year Examination</h3>
+
+   <div class="form-group">
+    <label for="exampleFormControlInput7">This Years examination results</label>
+    <input type="text" class="form-control" id="gpa2" placeholder="GPA">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput8">Year of examination</label>
+    <input type="text" class="form-control" id="yearexam2" placeholder="2018,2017,2016,etc">
+  </div>
+	<div class="form-group">
+    <label for="exampleFormControlInpu9">Semester</label>
+    <input type="text" class="form-control" id="sem2" placeholder="1,2,3,4,5,6,7,etc">
+  </div>
+  
+  <div id="field_div1" class="form-group col-md-6">Add Yourse Course Here
+		<input class="btn btn-primary btn-sm" type="button" value="Add Course" onclick="add_field1();">
+	</div>
+	<div class="form-group">
+    <label for="exampleFormControlInput10">GPA(Current Semester)</label>
+    <input type="text" class="form-control" id="gpasm1" placeholder="">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput11">CGPA(Current Semester)</label>
+    <input type="text" class="form-control" id="cgpasm1" placeholder="">
+  </div>
+  
+  <a href="introsecb.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Next</a>
+
+  
+  
+  </form>  
+
+
+
+</main>
+<br>
+<footer> 
+
+</footer>
+</div> 
+</div>
+<script src="main.js"> </script>
+</body>
+</html>
+
